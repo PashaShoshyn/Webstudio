@@ -247,6 +247,9 @@
 .team-item {
     background-color: var(--color-body-white);
     padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .team-img{
@@ -268,8 +271,169 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 1.17;
-    
 }
+
+.list-networks{
+    display: flex;
+    margin-top: 16px;
+}
+
+
+.item-networks-1{
+    background-image: url('../images/instagram.png'); 
+    width: 20px;
+    height: 20px; 
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+
+
+.item-networks-2{
+    background-image: url('../images/twitter.png');
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.item-networks-3{
+    background-image: url('../images/facebook.png');
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.item-networks-4{
+    background-image: url('../images/linkedin.png');
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+
+.item-networks-1:hover{
+    background-color: var(--color-body-blue);
+}
+
+.item-networks-2:hover{
+    background-color: var(--color-body-blue);
+}
+.item-networks-3:hover{
+    background-color: var(--color-body-blue);
+}
+.item-networks-4:hover{
+    background-color: var(--color-body-blue);
+}
+/* customers */
+
+.customers{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.customers-list-1{
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-image: url('../images/w1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.customers-list-2{
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-image: url('../images/w2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.customers-list-3{
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-image: url('../images/w3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.customers-list-4{
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-image: url('../images/w4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.customers-list-5{
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-image: url('../images/w5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.customers-list-6{
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-image: url('../images/w6.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+
+.customers-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
 
 /* footer */
 
@@ -289,6 +453,7 @@
 
 .footer-list {
     display: block;
+    margin-right: 70px;
 }
 
 .footer-logo_current_2 {
@@ -315,6 +480,24 @@
     line-height: 1.71;
     margin-top: 9px;
     margin-bottom: 9px;
+}
+
+.footer-title{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: var(--color-body-white);
+    margin-bottom: 20px;
+}
+
+
+.footer-link{
+    display: flex;
+}
+
+.footer-current{
+    display: flex;
 }
 
 
@@ -374,3 +557,4 @@
     margin-left: 24px;
     margin-top: 4px;
 }
+
