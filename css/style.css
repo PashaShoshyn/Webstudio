@@ -157,24 +157,28 @@
     background: url(../images/antenna\ 1.png) 50%/70px no-repeat var(--color-body-white_2);
     width: 270px;
     height: 120px;
+    border-radius: 4px;
 }
 
 .features_img_2 {
     background: url(../images/Vector.png) 50%/70px no-repeat var(--color-body-white_2);
     width: 270px;
     height: 120px;
+    border-radius: 4px;
 }
 
 .features_img_3 {
     background: url(../images/diagram\ 1.png) 50%/70px no-repeat var(--color-body-white_2);
     width: 270px;
     height: 120px;
+    border-radius: 4px;
 }
 
 .features_img_4 {
     background: url(../images/Group.png) 50%/70px no-repeat var(--color-body-white_2);
     width: 270px;
     height: 120px;
+    border-radius: 4px;
 }
 
 .features-subject_medium {
@@ -275,164 +279,7 @@
     line-height: 1.17;
 }
 
-.list-networks{
-    display: flex;
-    margin-top: 16px;
-}
-
-
-.item-networks-1{
-    background-image: url('../images/instagram.png'); 
-    width: 20px;
-    height: 20px; 
-    margin-right: 10px;
-    background-repeat: no-repeat;
-    border-radius: 5px;
-}
-
-
-
-.item-networks-2{
-    background-image: url('../images/twitter.png');
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    background-repeat: no-repeat;
-    border-radius: 5px;
-}
-
-.item-networks-3{
-    background-image: url('../images/facebook.png');
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    background-repeat: no-repeat;
-    border-radius: 5px;
-}
-
-.item-networks-4{
-    background-image: url('../images/linkedin.png');
-    width: 20px;
-    height: 20px;
-    background-repeat: no-repeat;
-    border-radius: 5px;
-}
-
-
-.item-networks-1:hover{
-    background-color: var(--color-body-blue);
-}
-
-.item-networks-2:hover{
-    background-color: var(--color-body-blue);
-}
-.item-networks-3:hover{
-    background-color: var(--color-body-blue);
-}
-.item-networks-4:hover{
-    background-color: var(--color-body-blue);
-}
-/* customers */
-
-.customers{
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
-.customers-list-1{
-    border: 1px solid #afb1b8;
-    border-radius: 4px;
-    width: 170px;
-    height: 92px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    padding-right: 32px;
-    background-image: url('../images/w1.png');
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.customers-list-2{
-    border: 1px solid #afb1b8;
-    border-radius: 4px;
-    width: 170px;
-    height: 92px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    padding-right: 32px;
-    background-image: url('../images/w2.png');
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.customers-list-3{
-    border: 1px solid #afb1b8;
-    border-radius: 4px;
-    width: 170px;
-    height: 92px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    padding-right: 32px;
-    background-image: url('../images/w3.png');
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.customers-list-4{
-    border: 1px solid #afb1b8;
-    border-radius: 4px;
-    width: 170px;
-    height: 92px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    padding-right: 32px;
-    background-image: url('../images/w4.png');
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.customers-list-5{
-    border: 1px solid #afb1b8;
-    border-radius: 4px;
-    width: 170px;
-    height: 92px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    padding-right: 32px;
-    background-image: url('../images/w5.png');
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.customers-list-6{
-    border: 1px solid #afb1b8;
-    border-radius: 4px;
-    width: 170px;
-    height: 92px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    padding-right: 32px;
-    background-image: url('../images/w6.png');
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.customers-items{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-
-
-
-/* footer */
+/* footer  */
 
 .footer {
     background-color: var(--color-body-black_3);
@@ -512,7 +359,7 @@
     line-height: 26px;
 }
 
-.main-button:hover {
+.main-button:active {
     background-color: var(--color-body-blue);
     color: var(--color-body-white);
 }
