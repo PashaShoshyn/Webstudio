@@ -36,8 +36,7 @@
 .header-flex,
 .header-navigation,
 .header-list,
-.contacts-list
-{
+.contacts-list {
     display: flex;
     align-items: center;
 }
@@ -50,7 +49,7 @@
 
 
 
-.header-navigation{
+.header-navigation {
     margin-right: 344px;
 }
 
@@ -82,7 +81,7 @@
     color: var(--color-body-black);
     font-weight: 500;
     line-height: 1.17;
-    
+
 }
 
 .header-link_active:hover {
@@ -91,12 +90,12 @@
 
 
 
-.conacts-item:not(:last-child){
+.conacts-item:not(:last-child) {
     margin-right: 50px;
 }
 
 
-.header-link_current{
+.header-link_current {
     color: var(--color-body-gray);
     font-size: 14px;
     font-weight: 500;
@@ -110,7 +109,7 @@
 /* hero */
 
 .hero {
-    background-image:  url(../images/Overlay.png), url(../images/bacround.png);
+    background-image: url(../images/Overlay.png), url(../images/bacround.png);
     padding-top: 200px;
     padding-bottom: 200px;
     background-repeat: no-repeat;
@@ -145,7 +144,8 @@
 
 /* features */
 
-.features{
+
+.features {
     padding-top: 94px;
 }
 
@@ -153,11 +153,17 @@
     display: flex;
 }
 
+.features-list:not(:last-child) {
+    margin-right: 30px;
+}
+
+
 .features_img_1 {
     background: url(../images/antenna\ 1.png) 50%/70px no-repeat var(--color-body-white_2);
     width: 270px;
     height: 120px;
     border-radius: 4px;
+    margin-bottom: 30px;
 }
 
 .features_img_2 {
@@ -165,6 +171,7 @@
     width: 270px;
     height: 120px;
     border-radius: 4px;
+    margin-bottom: 30px;
 }
 
 .features_img_3 {
@@ -172,6 +179,7 @@
     width: 270px;
     height: 120px;
     border-radius: 4px;
+    margin-bottom: 30px;
 }
 
 .features_img_4 {
@@ -179,6 +187,7 @@
     width: 270px;
     height: 120px;
     border-radius: 4px;
+    margin-bottom: 30px;
 }
 
 .features-subject_medium {
@@ -187,42 +196,26 @@
     font-weight: 700;
     line-height: 1.17;
     margin-bottom: 10px;
-    margin-top: 30px;
 }
 
-.features-subject_medium_2 {
-    font-size: 14px;
-    color: var(--color-body-black);
-    font-weight: 700;
-    line-height: 1.17;
-    margin-bottom: 10px;
-    margin-top: 30px;
-}
 
 .features-tex_medium {
     font-size: 14px;
     color: var(--color-body-gray);
     font-weight: 400;
     line-height: 1.7;
-    padding-right: 30px;
 }
 
-.features-tex_medium_2 {
-    font-size: 14px;
-    color: var(--color-body-gray);
-    font-weight: 400;
-    line-height: 1.7;
-}
 
 /* activities */
 
-.activities{
+.activities {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
 
-.section-title{
+.section-title {
     font-size: 36px;
     color: var(--color-body-black);
     font-weight: 700;
@@ -231,7 +224,7 @@
     margin-bottom: 50px;
 }
 
-.activities-items{
+.activities-items {
     display: flex;
     justify-content: space-between;
 }
@@ -258,7 +251,7 @@
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
-.team-img{
+.team-img {
     margin-bottom: 30px;
 }
 
@@ -269,7 +262,7 @@
     font-weight: 500;
     line-height: 1.17;
     margin-bottom: 10px;
- 
+
 }
 
 .team-text {
@@ -326,7 +319,7 @@
     margin-bottom: 9px;
 }
 
-.footer-title{
+.footer-title {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
@@ -336,11 +329,11 @@
 }
 
 
-.footer-link{
+.footer-link {
     display: flex;
 }
 
-.footer-current{
+.footer-current {
     display: flex;
 }
 
@@ -357,11 +350,39 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    background-color: var(--color-body-white_2);
+    border: var(--color-body-white);
+}
+
+
+
+.main-button-1 {
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: var(--color-body-white_2);
+    border: var(--color-body-white);
 }
 
 .main-button:active {
     background-color: var(--color-body-blue);
     color: var(--color-body-white);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.main-button-1:active {
+    background-color: var(--color-body-blue);
+    color: var(--color-body-white);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 
@@ -401,4 +422,3 @@
     margin-left: 24px;
     margin-top: 4px;
 }
-
