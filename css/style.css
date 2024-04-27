@@ -110,7 +110,7 @@
 /* hero */
 
 .hero {
-    background: url(../images/bacround.png);
+    background-image:  url(../images/Overlay.png), url(../images/bacround.png);
     padding-top: 200px;
     padding-bottom: 200px;
     background-repeat: no-repeat;
@@ -250,6 +250,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
 .team-img{
@@ -420,11 +422,6 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
-
-
-
-
 
 .customers-items{
     display: flex;
