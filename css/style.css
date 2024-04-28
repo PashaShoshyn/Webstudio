@@ -159,7 +159,7 @@
 
 
 .features_img_1 {
-    background: url(../images/antenna\ 1.png) 50%/70px no-repeat var(--color-body-white_2);
+    background: url(../images/antenna.svg) 50%/70px no-repeat var(--color-body-white_2);
     width: 270px;
     height: 120px;
     border-radius: 4px;
@@ -167,7 +167,7 @@
 }
 
 .features_img_2 {
-    background: url(../images/Vector.png) 50%/70px no-repeat var(--color-body-white_2);
+    background: url(../images/vector.svg) 50%/70px no-repeat var(--color-body-white_2);
     width: 270px;
     height: 120px;
     border-radius: 4px;
@@ -175,7 +175,7 @@
 }
 
 .features_img_3 {
-    background: url(../images/diagram\ 1.png) 50%/70px no-repeat var(--color-body-white_2);
+    background: url(../images/diagram.svg) 50%/70px no-repeat var(--color-body-white_2);
     width: 270px;
     height: 120px;
     border-radius: 4px;
@@ -183,7 +183,7 @@
 }
 
 .features_img_4 {
-    background: url(../images/Group.png) 50%/70px no-repeat var(--color-body-white_2);
+    background: url(../images/astronaut.svg) 50%/70px no-repeat var(--color-body-white_2);
     width: 270px;
     height: 120px;
     border-radius: 4px;
@@ -393,13 +393,14 @@
 .main-section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 34px;
     margin-bottom: 94px;
 }
 
 .main-list_items {
-    margin: 10px;
     background-color: var(--color-body-white);
+    margin-top: 30px;
     width: 370px;
     border: 1px solid #eee;
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
