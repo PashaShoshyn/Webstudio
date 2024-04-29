@@ -343,6 +343,7 @@
 .main-list {
     display: flex;
     justify-content: center;
+    margin-bottom: 34px;
 }
 
 .main-button {
@@ -394,17 +395,21 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 34px;
     margin-bottom: 94px;
 }
 
-.main-list_items {
+.main-list_items{
     background-color: var(--color-body-white);
-    margin-top: 30px;
     width: 370px;
     border: 1px solid #eee;
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
+
+.main-list_items:nth-child(n+4){
+    margin-top: 30px;
+}
+
+
 
 .main-title-big {
     font-weight: 700;
