@@ -210,7 +210,7 @@
     display: block;
     content: "";
     margin-bottom: 30px;
-    background: url(../images/vector.svg) 50%/70px no-repeat var(--color-body-white_2);
+    background: url(../images/diagram.svg) 50%/70px no-repeat var(--color-body-white_2);
     width: 270px;
     height: 120px;
 
@@ -228,7 +228,7 @@
     display: block;
     content: "";
     margin-bottom: 30px;
-    background: url(../images/group.svg) 50%/70px no-repeat var(--color-body-white_2);
+    background: url(../images/astronaut.svg) 50%/70px no-repeat var(--color-body-white_2);
     width: 270px;
     height: 120px;
 
