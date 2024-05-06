@@ -11,6 +11,8 @@
 
     --color-body-gray_2: #FFFFFF99;
 
+    --color-body-gray_3:#AFB1B8;
+
     --color-body-white_2: #F5F4FA;
 
     --color-body-black_2: #000000;
@@ -308,6 +310,16 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 1.17;
+}
+
+
+.team-svg{
+    fill: var( --color-body-gray_3);
+}
+
+.team-svg:hover{
+    background-color: var(--color-body-blue);
+    fill: var(--color-body-white);
 }
 
 /* footer  */
