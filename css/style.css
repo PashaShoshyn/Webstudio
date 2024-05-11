@@ -60,7 +60,16 @@
     font-family: "Raleway";
     font-weight: 700;
     line-height: 1.17;
+}
+
+.header-logo_current_1{
+    color: var(--color-body-black_2);
+    font-size: 26px;
+    font-family: "Raleway";
+    font-weight: 700;
+    line-height: 1.17;
     margin-right: 93px;
+
 }
 
 
