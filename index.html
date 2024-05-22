@@ -49,12 +49,35 @@
                     <button type="button" class="hero-button" data-modal-open>Замовити послугу </button>
                     <div class="backdrop is-hidden" data-modal>
                         <div class="modal">
-                         <button class="btn" data-modal-close>Закрити</button>
-                         <br />
-                         <br />
-                         <p class="modal-text">Тут буде ФОРМА:</p>
+                            <svg class="hero_img" width="30px" height="30px" data-modal-close>
+                                <use href="./images/symboldefs.svg#cross"></use>
+                            </svg>
+                            <h2 class="hero-title_2">Залиште свої дані, ми вам передзвонимо</h2>
+                            <form class="hero-form">
+                                
+                                    <label for="fname" class="hero_text">Ім'я</label>
+                                    <input class="hero_input" type="text" id="fname" name="firstname" required />
+                                   
+
+                                    <label for="tel" class="hero_text">Телефон</label>
+                                    <input class="hero_input" type="text" id="tel" name="lastname" required />
+                               
+
+                                <label for="email" class="hero_text">Пошта</label>
+                                <input class="hero_input" type="email" id="email" name="email" required />
+
+                                <label for="comment" class="hero_text">Коментар</label>
+                                <textarea id="comment" class="hero_coment" placeholder="Ведіть текст"></textarea>
+
+                                <label class="hero_coment_box">
+                                    <input type="checkbox">
+                                    Погоджуюся з розсилкою та приймаю <a href="./" class="hero_a">Умови договору</a>
+                                </label>
+                            </form>
+                            <button class="hero-button_2">Відправити</button>
+
                         </div>
-                       </div>
+                    </div>
                 </div>
             </section>
 
@@ -91,14 +114,17 @@
                 <div class="container">
                     <h2 class="section-title">Чим ми займаємося</h2>
                     <ul class="activities-items">
-                        <li class="activities-item"><img src="./images/codings.jpg" alt="програмування" width="370" class="activities-img">
-                        <p class="activities-text">Десктопні додатки</p>
+                        <li class="activities-item"><img src="./images/codings.jpg" alt="програмування" width="370"
+                                class="activities-img">
+                            <p class="activities-text">Десктопні додатки</p>
                         </li>
-                        <li class="activities-item"><img src="./images/phone.jpg" alt="програмування-дизайн" width="370" class="activities-img">
-                        <p class="activities-text">Мобільні додатки</p>
+                        <li class="activities-item"><img src="./images/phone.jpg" alt="програмування-дизайн" width="370"
+                                class="activities-img">
+                            <p class="activities-text">Мобільні додатки</p>
                         </li>
-                        <li class="activities-item"><img src="./images/colors.jpg" alt="Дизайн" width="370" class="activities-img">
-                        <p class="activities-text">Дизайнерські рішення</p>
+                        <li class="activities-item"><img src="./images/colors.jpg" alt="Дизайн" width="370"
+                                class="activities-img">
+                            <p class="activities-text">Дизайнерські рішення</p>
                         </li>
                     </ul>
                 </div>
@@ -337,26 +363,37 @@
                         </li>
                         <li class="footer-li">
                             <a href="https://twitter.com/ukrpravda_news" class="footer-images">
-                            <svg class="footer-svg" width="20" height="20">
-                                <use href="./images/symboldefs.svg#tvitter"></use>
-                            </svg>
-                        </a>
+                                <svg class="footer-svg" width="20" height="20">
+                                    <use href="./images/symboldefs.svg#tvitter"></use>
+                                </svg>
+                            </a>
                         </li>
                         <li class="footer-li">
                             <a class="footer-images" href="https://www.facebook.com/?locale=ru_RU">
-                            <svg class="footer-svg" width="20" height="20">
-                                <use href="./images/symboldefs.svg#facebook"></use>
-                            </svg>
-                        </a>
+                                <svg class="footer-svg" width="20" height="20">
+                                    <use href="./images/symboldefs.svg#facebook"></use>
+                                </svg>
+                            </a>
                         </li>
                         <li class="footer-li">
                             <a href="https://ua.linkedin.com/" class="footer-images">
-                            <svg class="footer-svg" width="20" height="20">
-                                <use href="./images/symboldefs.svg#linkedin"></use>
-                            </svg>
-                        </a>
+                                <svg class="footer-svg" width="20" height="20">
+                                    <use href="./images/symboldefs.svg#linkedin"></use>
+                                </svg>
+                            </a>
                         </li>
                     </ul>
+                </div>
+                <div class="footer_address">
+                    <h2 class="footer_address_text">Підпишіться на розсилку</h2>
+                    <form class="footer_form">
+                        <input class="footer_input" type="email" id="email" name="email" placeholder="E-mail"
+                            required />
+                        <button class="footer_button">Підписатися <svg width="24px" height="24px"
+                                class="footer_telegram">
+                                <use href="./images/symboldefs.svg#telegram"></use>
+                            </svg></button>
+                    </form>
                 </div>
         </footer>
     </div>
