@@ -54,17 +54,31 @@
                             </svg>
                             <h2 class="hero-title_2">Залиште свої дані, ми вам передзвонимо</h2>
                             <form class="hero-form">
-                                
-                                    <label for="fname" class="hero_text">Ім'я</label>
-                                    <input class="hero_input" type="text" id="fname" name="firstname" required />
-                                   
 
-                                    <label for="tel" class="hero_text">Телефон</label>
+                                <label for="fname" class="hero_text">Ім'я</label>
+                                <div class="hero_div">
+                                    <input class="hero_input" type="text" id="fname" name="firstname" required />
+                                    <svg width="18px" height="18px" id="fname" class="hero_name">
+                                        <use href="./images/symboldefs.svg#name"></use>
+                                    </svg>
+                                </div>
+
+
+                                <label for="tel" class="hero_text">Телефон</label>
+                                <div class="hero_div">
                                     <input class="hero_input" type="text" id="tel" name="lastname" required />
-                               
+                                    <svg width="18px" height="18px" id="fname" class="hero_name">
+                                        <use href="./images/symboldefs.svg#phone"></use>
+                                    </svg>
+                                </div>
 
                                 <label for="email" class="hero_text">Пошта</label>
-                                <input class="hero_input" type="email" id="email" name="email" required />
+                                <div class="hero_div">
+                                    <input class="hero_input" type="email" id="email" name="email" required />
+                                    <svg width="18px" height="18px" id="fname" class="hero_name">
+                                        <use href="./images/symboldefs.svg#mail"></use>
+                                    </svg>
+                                </div>
 
                                 <label for="comment" class="hero_text">Коментар</label>
                                 <textarea id="comment" class="hero_coment" placeholder="Ведіть текст"></textarea>
@@ -73,8 +87,9 @@
                                     <input type="checkbox">
                                     Погоджуюся з розсилкою та приймаю <a href="./" class="hero_a">Умови договору</a>
                                 </label>
+                                <button class="hero-button_2">Відправити</button>
                             </form>
-                            <button class="hero-button_2">Відправити</button>
+
 
                         </div>
                     </div>
@@ -389,7 +404,7 @@
                     <form class="footer_form">
                         <input class="footer_input" type="email" id="email" name="email" placeholder="E-mail"
                             required />
-                        <button class="footer_button">Підписатися <svg width="24px" height="24px"
+                        <button class="footer_button">Підписатися <svg width="24px" height="24px" class="footer_img"
                                 class="footer_telegram">
                                 <use href="./images/symboldefs.svg#telegram"></use>
                             </svg></button>

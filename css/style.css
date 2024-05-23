@@ -164,6 +164,7 @@
     padding-left: 32px;
     padding-right: 32px;
     border-radius: 4px;
+    border: 1px solid var(--color-body-blue);
 }
 
 .backdrop {
@@ -186,17 +187,14 @@
 }
 
 .modal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     position: absolute;
     top: 50%;
     left: 50%;
     min-width: 400px;
     min-height: 300px;
-    padding: 15px;
     background-color: var(--color-body-white);
     transform: translate(-50%, -50%);
+
 }
 
 
@@ -206,9 +204,14 @@
     fill: #000;
     outline: 1px auto rgba(0, 0, 0, 0.1);
     padding: 6px;
+    margin-left: 490px;
+    margin-right: 8px;
+    margin-top: 8px;
+
+
 }
 
-.hero_img:hover{
+.hero_img:hover {
     fill: var(--color-body-blue);
 }
 
@@ -217,7 +220,7 @@
     flex-direction: column;
 }
 
-.hero-title_2{
+.hero-title_2 {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 20px;
@@ -225,6 +228,7 @@
     text-align: center;
     color: var(--color-body-black);
     margin-bottom: 12px;
+
 }
 
 
@@ -235,6 +239,7 @@
     letter-spacing: 0.01em;
     color: var(--color-body-gray);
     margin-bottom: 4px;
+    margin-left: 40px;
 }
 
 .hero_input {
@@ -243,9 +248,23 @@
     width: 448px;
     height: 40px;
     margin-bottom: 10px;
+    margin-left: 40px;
+    padding-left: 50px;
+    padding-top: 2px;
 }
-.hero_input:hover{
-    border: 1px solid var(--color-body-blue);
+
+.hero_input:focus{
+    outline: 1px solid var(--color-body-blue);
+}
+
+
+.hero_name{
+    position: absolute;
+    right: 458px;
+    top: 104px;
+}
+
+.hero_name:focus{
     fill: var(--color-body-blue);
 }
 
@@ -264,15 +283,26 @@
     color: rgba(117, 117, 117, 0.5);
     padding-left: 12px;
     padding-top: 16px;
+    margin-left: 40px;
 }
-.hero_coment:hover{
-    border: 1px solid var(--color-body-blue);
+
+.hero_coment:focus {
+    outline: 1px solid var(--color-body-blue);
 }
 
 
 .hero_coment_box {
     margin-bottom: 40px;
+    margin-left: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
+
+
 
 .hero_a {
     font-family: 'Roboto';
@@ -291,6 +321,7 @@
     height: 50px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #188ce8;
+    border: 1px solid #188ce8;
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 16px;
@@ -298,6 +329,8 @@
     letter-spacing: 0.06em;
     text-align: center;
     color: #fff;
+    margin-left: 164px;
+    margin-bottom: 40px;
 }
 
 /* features */
@@ -738,25 +771,30 @@
 
 .footer_button {
     border-radius: 4px;
-    width: 200px;
-    height: 50px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #2196f3;
-    font-family: var(--font-family);
+    border: 1px solid #2196f3;
+    font-family: 'Roboto';
+    width: 200px;
+    height: 50px;
     font-weight: 700;
     font-size: 16px;
     line-height: 187%;
     letter-spacing: 0.06em;
-    text-align: center;
     color: var(--color-body-white);
 }
 
+.footer_img{
+    position: absolute;
+    fill: var(--color-body-white);
+    margin-left: 10px;
+   
+}
 
 
 .footer_telegram {
     fill: var(--color-body-white);
     background-size: cover;
-    padding-top: 13px;
 }
 
 /* ПОРТФОЛІО */
