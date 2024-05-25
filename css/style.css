@@ -220,6 +220,13 @@
     flex-direction: column;
 }
 
+
+
+
+
+
+
+
 .hero-title_2 {
     font-family: 'Roboto';
     font-weight: 700;
@@ -253,13 +260,18 @@
     padding-top: 2px;
 }
 
+.hero_div{
+    position: relative;
+}
+
 .hero_input:focus{
     outline: 1px solid var(--color-body-blue);
 }
 
-.hero_div{
-    position: relative;
+.hero_input:focus + .hero_name{
+    fill:  var(--color-body-blue);
 }
+
 
 .hero_div:focus{
     fill: var(--color-body-blue);
@@ -271,9 +283,6 @@
     top: 11px;
 }
 
-.hero_name:focus{
-    fill: var(--color-body-blue);
-}
 
 .hero_coment {
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -281,15 +290,18 @@
     width: 448px;
     height: 120px;
     margin-bottom: 20px;
+    padding-left: 12px;
+    padding-top: 16px;
+    margin-left: 40px;
+    resize: none;
+}
+
+.hero_coment::placeholder{
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 12px;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
-    padding-left: 12px;
-    padding-top: 16px;
-    margin-left: 40px;
-    resize: none;
 }
 
 .hero_coment:focus {
