@@ -75,10 +75,6 @@
 
 }
 
-
-
-
-
 .header_item:not(:last-child) {
     margin-right: 50px
 }
@@ -91,7 +87,9 @@
     position: relative;
 }
 
-.header-link_active::after {
+
+
+.active::after{
     width: 100%;
     height: 2px;
     content: "";
@@ -104,6 +102,8 @@
     background-color: var(--color-body-blue);
     display: block;
 }
+
+
 
 
 
@@ -218,7 +218,6 @@
     min-height: 300px;
     background-color: var(--color-body-white);
     transform: translate(-50%, -50%);
-
 }
 
 
@@ -633,13 +632,6 @@
 
 }
 
-
-
-
-.customers-li:not(:last-child) {
-    margin-right: 30px;
-}
-
 .customers-list {
     outline: solid #AFB1B8 1px;
     border-radius: 4px;
@@ -768,6 +760,7 @@
     fill: var(--color-body-white);
     background-color: #817a7a33;
 }
+
 
 .footer-images:not(:last-child) {
     margin-right: 10px;
