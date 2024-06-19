@@ -104,6 +104,11 @@
     background-position: center;
     background-color: var(--color-body-blue);
     display: block;
+
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0;
 }
 
 
