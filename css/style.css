@@ -649,36 +649,20 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
-    animation: render 4s  ease-in-out;
+    animation: fade-in 1s ease-in-out;
     
 }
 
-@keyframes render {
+@keyframes fade-in {
     0% {
-      background-color: #2196F3;
+      opacity: 0;
     }
-  
-    25% {
-      background-color:#2196F3;
-    }
-  
-    50% {
-     
-      background-color: #2196F3;
-    }
-  
-    75% {
-     
-      background-color: #2196F3;
-    }
-  
     100% {
-     
-      background-color: #2196F3;
+      opacity: 1;
     }
   }
-
-
+  
+ 
 
 
 .customers-title {
