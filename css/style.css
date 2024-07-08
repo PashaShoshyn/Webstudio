@@ -22,6 +22,20 @@
     --second-family: "Raleway", sans-serif;
 }
 
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+body{
+    animation: fade-in 2s ease-in-out;
+}
+
 .container_body {
     width: 1600px;
     /* outline: 1px dashed green; */
@@ -179,8 +193,6 @@
         url('../images/bacround.png');
     background-repeat: no-repeat;
     background-size: cover;
-    /* margin-top: 30px; */
-    animation: fade-in 2s ease-in-out;
 }
 
 .hero-title {
@@ -247,9 +259,6 @@
     min-width: 400px;
     min-height: 300px;
     background-color: var(--color-body-white);
-    
-
-
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 250ms,
     opacity 250ms cubic-bezier(0.4, 0, 0.2, 1)  250ms;
@@ -265,8 +274,6 @@
     margin-left: 490px;
     margin-right: 8px;
     margin-top: 8px;
-
-
 }
 
 .hero_img:hover {
@@ -413,7 +420,6 @@
 
 .features {
     padding-top: 94px;
-    animation: fade-in 2s ease-in-out;
 }
 
 .features-items {
@@ -513,7 +519,6 @@
 .activities {
     padding-top: 94px;
     padding-bottom: 94px;
-    animation: fade-in 2s ease-in-out;
 }
 
 
@@ -557,7 +562,7 @@
     background-color: var(--color-body-white_2);
     padding-top: 94px;
     padding-bottom: 94px;
-    animation: fade-in 2s ease-in-out;
+ 
 }
 
 .team-list {
@@ -629,17 +634,10 @@
 
 /* customers */
 
-  
- 
- 
-
-
-
-
 .customers {
     padding-top: 94px;
     padding-bottom: 94px;
-    animation: fade-in 2s ease-in-out;
+
 }
 
 .container-customers {
@@ -655,18 +653,10 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
-    animation: fade-in 2s ease-in-out;
+
     
 }
 
-@keyframes fade-in {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
   
  
 
@@ -732,7 +722,6 @@
     background-color: var(--color-body-black_3);
     padding-top: 60px;
     padding-bottom: 60px;
-    animation: fade-in 2s ease-in-out;
 }
 
 .footer-logo {
