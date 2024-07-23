@@ -1,4 +1,35 @@
-@charset "UTF-8";
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 :root {
   --color-body-white: #FFFFFF;
   --color-body-black: #212121;
@@ -25,6 +56,13 @@ body {
   animation: fade-in 2s ease-in-out;
 }
 
+body {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: white;
+  background-color: white;
+}
+
 .container_body {
   width: 1600px;
   /* outline: 1px dashed green; */
@@ -36,6 +74,13 @@ body {
   margin: 0 auto;
   padding: 0 15px;
   /* outline: 1px dashed tomato; */
+}
+
+.buttons {
+  align-self: center;
+  padding: 20px 48px 21px 48px;
+  font-size: 1.5rem;
+  background-color: blue;
 }
 
 .header-flex,
@@ -152,7 +197,6 @@ body {
   padding-top: 80px;
 }
 
-/* hero */
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -312,14 +356,6 @@ body {
   padding: 16px 12px;
 }
 
-.hero_coment::-moz-placeholder {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 12px;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
-
 .hero_coment::placeholder {
   font-family: "Roboto";
   font-weight: 400;
@@ -352,8 +388,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-body-blue);
   text-decoration: underline;
-  -webkit-text-decoration-skip-ink: none;
-          text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
 }
 
 .hero-button_2 {
@@ -374,7 +409,6 @@ body {
   margin-bottom: 40px;
 }
 
-/* features */
 .features {
   padding-top: 94px;
 }
@@ -462,7 +496,6 @@ body {
   line-height: 1.7;
 }
 
-/* activities */
 .activities {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -503,7 +536,6 @@ body {
   justify-content: space-between;
 }
 
-/* Team */
 .team {
   background-color: var(--color-body-white_2);
   padding-top: 94px;
@@ -573,7 +605,6 @@ body {
   background-color: var(--color-body-blue);
 }
 
-/* customers */
 .customers {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -641,7 +672,6 @@ body {
   fill: var(--color-body-blue);
 }
 
-/* footer  */
 .footer {
   background-color: var(--color-body-black_3);
   padding-top: 60px;
@@ -818,7 +848,6 @@ body {
   background-size: cover;
 }
 
-/* ПОРТФОЛІО */
 .main-list {
   display: flex;
   justify-content: center;
