@@ -1,94 +1,37 @@
 .features {
     padding-top: 94px;
-}
 
-.features-items {
-    display: flex;
-}
+    &__list {
+        display: flex;
+        justify-content: space-between;
 
-.features-list:not(:last-child) {
-    margin-right: 30px;
-}
+        &--item {
+            width: 270px;
 
-.features-subject_medium_1 {
-    font-size: 14px;
-    color: var(--color-body-black);
-    font-weight: 700;
-    line-height: 1.17;
-    margin-bottom: 10px;
-}
+            &:nth-child(1)::before {
+                @include feature-icon('../images/antenna.svg');
+            }
 
-.features-subject_medium_1::before {
-    display: block;
-    content: "";
-    margin-bottom: 30px;
-    background: url(../images/antenna.svg) 50%/70px no-repeat var(--color-body-white_2);
-    width: 270px;
-    height: 120px;
+            &:nth-child(2)::before {
+                @include feature-icon('../images/clock.svg');
+            }
 
-}
+            &:nth-child(3)::before {
+                @include feature-icon('../images/diagram.svg');
+            }
 
+            &:nth-child(4)::before {
+                @include feature-icon('../images/astronaut.svg');
+            }
+        }
 
-.features-subject_medium_2 {
-    font-size: 14px;
-    color: var(--color-body-black);
-    font-weight: 700;
-    line-height: 1.17;
-    margin-bottom: 10px;
-}
+        &--title {
+            @extend %feature-title;
+            color: getColor('black-color');
+        }
 
-.features-subject_medium_2::before {
-    display: block;
-    content: "";
-    margin-bottom: 30px;
-    background: url(../images/clock.svg) 50%/70px no-repeat var(--color-body-white_2);
-    width: 270px;
-    height: 120px;
-
-}
-
-.features-subject_medium_3 {
-    font-size: 14px;
-    color: var(--color-body-black);
-    font-weight: 700;
-    line-height: 1.17;
-    margin-bottom: 10px;
-}
-
-.features-subject_medium_3::before {
-    display: block;
-    content: "";
-    margin-bottom: 30px;
-    background: url(../images/diagram.svg) 50%/70px no-repeat var(--color-body-white_2);
-    width: 270px;
-    height: 120px;
-
-}
-
-.features-subject_medium_4 {
-    font-size: 14px;
-    color: var(--color-body-black);
-    font-weight: 700;
-    line-height: 1.17;
-    margin-bottom: 10px;
-}
-
-.features-subject_medium_4::before {
-    display: block;
-    content: "";
-    margin-bottom: 30px;
-    background: url(../images/astronaut.svg) 50%/70px no-repeat var(--color-body-white_2);
-    width: 270px;
-    height: 120px;
-
-}
-
-
-
-
-.features-tex_medium {
-    font-size: 14px;
-    color: var(--color-body-gray);
-    font-weight: 400;
-    line-height: 1.7;
+        &--text {
+            @extend %feature-text;
+        }
+    }
 }
